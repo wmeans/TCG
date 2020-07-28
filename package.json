@@ -35,7 +35,7 @@
     "express": "^4.16.2",
     "formidable": "^1.2.1",
     "isomorphic-fetch": "^2.2.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "level": "^5.0.1",
     "mongojs": "^2.6.0",
     "react": "^16.3.0",
