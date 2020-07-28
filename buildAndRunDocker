@@ -1,0 +1,9 @@
+echo "Buidling Docker image"
+docker build -t cloud-app .
+
+echo "Run docker cloud-app image"
+docker run -p 8080:3000 -d wmeans/gemini_one-app
+
+echo "MUST ADD the /uploads root folder for web app"
+echo "docker exec cloud-app mkdir -m 777 /uploads"
+
